@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a litlte test project for  interview
+This is a litlte test project for an interview
 
 ## How to run tests
 Inside the root folder, run this command:
