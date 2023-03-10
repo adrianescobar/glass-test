@@ -7,7 +7,8 @@ public class Program
     private static void Main(string[] args)
     {
         // Here add your connection string
-        var repository = DocumentRepository.Create("Server=localhost,1433;Database=MyDocuments;User Id=sa;Password=Gl@ssdbp@ss1;TrustServerCertificate=true");
+        var connectionString = "Server=localhost,1433;Database=MyDocuments;User Id=sa;Password=Gl@ssdbp@ss1;TrustServerCertificate=true";
+        var repository = DocumentRepository.Create(connectionString);
         
         //Here add query words for matchAll in true execution
         var matchAllQuery = "dolor egestas rhoncus";
